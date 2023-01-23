@@ -1,9 +1,12 @@
 <!DOCTYPE html>
+{% load staticfiles %}
 <html>
     <head>
         <title>Rango</title>
     </head>
     <body>
+
+
         <h1>Rango says...</h1>
         <div>
             hey there partner! <br />
@@ -11,6 +14,10 @@
         </div>
         <div>
             <a href="/rango/about/">About</a><br />
+            <img src="{% static 'images/catpic.jpg' %}"
+                alt="Picture of Rango" />
+
+
         </div>
     </body>
 </html>
