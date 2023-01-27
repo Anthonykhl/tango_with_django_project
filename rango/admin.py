@@ -7,7 +7,7 @@ class CategoryAdmin(admin.ModelAdmin):
 
 
 class adminPage(admin.ModelAdmin):
-    list_display=('category','title','url')
+    list_display=('title','category','url')
 
 
 
